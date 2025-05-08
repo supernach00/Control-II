@@ -1,0 +1,69 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="26.3.0">
+  <diagram name="Página-1" id="VD2EuMpZDvNrIsIxyTrt">
+    <mxGraphModel dx="1109" dy="628" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="o0W0pkzJsEj7L0cBzfmL-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.622;entryY=-0.026;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="o0W0pkzJsEj7L0cBzfmL-2" target="o0W0pkzJsEj7L0cBzfmL-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="284" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o0W0pkzJsEj7L0cBzfmL-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="o0W0pkzJsEj7L0cBzfmL-2" target="o0W0pkzJsEj7L0cBzfmL-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o0W0pkzJsEj7L0cBzfmL-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="o0W0pkzJsEj7L0cBzfmL-2" target="o0W0pkzJsEj7L0cBzfmL-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o0W0pkzJsEj7L0cBzfmL-2" value="&lt;b&gt;ESPACIO DE ESTADOS&lt;/b&gt;&lt;div&gt;&lt;b&gt;ORIGINAL&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="465" y="90" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="o0W0pkzJsEj7L0cBzfmL-3" value="&lt;b&gt;FUNCIÓN DE&amp;nbsp;&lt;/b&gt;&lt;div&gt;&lt;b&gt;TRANSFERENCIA&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;ORIGINAL&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="110" y="90" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="o0W0pkzJsEj7L0cBzfmL-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="o0W0pkzJsEj7L0cBzfmL-8" target="o0W0pkzJsEj7L0cBzfmL-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o0W0pkzJsEj7L0cBzfmL-8" value="&lt;b style=&quot;&quot;&gt;FORMA&amp;nbsp;&lt;/b&gt;&lt;div&gt;&lt;b style=&quot;&quot;&gt;DIAGONAL,&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;HALLAR T&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="205.75" y="180" width="126" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="o0W0pkzJsEj7L0cBzfmL-30" value="&lt;b&gt;VOLVER A FORMA ORIGINAL&lt;/b&gt;" style="whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="207" y="400" width="123.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="o0W0pkzJsEj7L0cBzfmL-31" value="$$ \phi (t)= T \phi_d(t)&amp;nbsp; T^{-1}$$" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="207" y="450" width="123.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="o0W0pkzJsEj7L0cBzfmL-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="o0W0pkzJsEj7L0cBzfmL-36" target="o0W0pkzJsEj7L0cBzfmL-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o0W0pkzJsEj7L0cBzfmL-36" value="$$\mathbf{\phi_d}(t) = \left( I + At + \frac{A^2 t^2}{2} + \frac{A^3 t^3}{3!} + \cdots \right) \ $$" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="123.75" y="310" width="290" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="o0W0pkzJsEj7L0cBzfmL-41" value="&lt;b&gt;HALLAR MATRIZ&lt;/b&gt;&lt;div&gt;&lt;b&gt;DE TRANSICIÓN DE&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;ESTADOS&lt;/b&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="123.75" y="260" width="290" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="o0W0pkzJsEj7L0cBzfmL-48" value="$$\phi =&amp;nbsp; \mathcal{L}^{-1}\{(sI - A)^{-1})\}$$" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="310" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="o0W0pkzJsEj7L0cBzfmL-49" value="&lt;b&gt;HALLAR MATRIZ&lt;/b&gt;&lt;div&gt;&lt;b&gt;DE TRANSICIÓN DE&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;ESTADOS EN LAPLACE&lt;/b&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="440" y="260" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="o0W0pkzJsEj7L0cBzfmL-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.386;entryY=-0.014;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="o0W0pkzJsEj7L0cBzfmL-3" target="o0W0pkzJsEj7L0cBzfmL-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="254" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o0W0pkzJsEj7L0cBzfmL-53" value="$$ \phi (t) = e^{At} = R(A) = \gamma_2A^2 + \gamma_1 A + \gamma_0 I$$" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="320" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="o0W0pkzJsEj7L0cBzfmL-54" value="&lt;b&gt;HALLAR MATRIZ&lt;/b&gt;&lt;div&gt;&lt;b&gt;DE TRANSICIÓN DE&amp;nbsp;&lt;/b&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;ESTADOS POR CAYLEY-&lt;/b&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;HAMILTON&lt;/b&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="640" y="260" width="260" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
