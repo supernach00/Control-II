@@ -31,4 +31,4 @@ x_t = simplify(Phi * x1 + int_term)
 y_t = simplify([1 1] * x_t)
 dy_t = simplify(diff(y_t, t))
 
-
+%% Ejercicio 3
