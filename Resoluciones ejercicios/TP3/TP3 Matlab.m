@@ -32,3 +32,46 @@ y_t = simplify([1 1] * x_t)
 dy_t = simplify(diff(y_t, t))
 
 %% Ejercicio 3
+%% Ejercicio 4.1
+%% Ejercicio 4.2
+
+syms t tau
+
+A = [-1 0; 0 1];
+Phi = expm(A*t)
+
+%% Ejercicio 5
+
+syms s t tau
+
+A = [0 1; -2 -3];
+B = [0; 1];
+C = [1 0]; 
+D = 0;
+
+Philp = inv(s*eye(2)-A)
+expm(A*t)
+
+%% Ejercicio 6
+
+syms t
+
+A = [0 0; 0 0];
+B = [2 0; 0 2];
+C = [1 1]; 
+D = 0;
+
+xi = [2; 2]; 
+sys6 = ss(A, B, C, D);
+
+eig(A)
+expm(A*t)
+
+%% Ejercicio 7
+
+phi = [0.904 0; 0.0868 0.818]
+xi = [1; 1]
+
+x_unopuntodos = (phi^12)*xi
+
+

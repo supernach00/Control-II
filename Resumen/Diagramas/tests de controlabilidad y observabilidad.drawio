@@ -1,0 +1,63 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="27.0.9">
+  <diagram name="Página-1" id="kgvg0wWJ-pufLvgITNxJ">
+    <mxGraphModel dx="1109" dy="632" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Ax-EyaZyT6LP3G_5-it_-12" value="DIAGONALIZÁ A, B Y C.&lt;div&gt;DETERMINÁ&amp;nbsp; CONTROLABILIDAD Y OBSERVABILIDAD POR OBSERVACIÓN.&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="250" width="150" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Ax-EyaZyT6LP3G_5-it_-13" value="&lt;b&gt;TEST DE GILBERT&lt;/b&gt;" style="whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="40" y="200" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Ax-EyaZyT6LP3G_5-it_-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ax-EyaZyT6LP3G_5-it_-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ax-EyaZyT6LP3G_5-it_-20" value="&lt;b&gt;ESPACIO DE ESTADOS&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="150" y="10" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Ax-EyaZyT6LP3G_5-it_-25" value="OBTENÉ MATRICES Qc y Qo, Y EL RANGO DE CADA UNA.&lt;div&gt;COMPARÁ CON EL RANGO DE A.&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="250" width="150" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Ax-EyaZyT6LP3G_5-it_-26" value="&lt;b&gt;TEST DE KALMAN&lt;/b&gt;" style="whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="230" y="200" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Ax-EyaZyT6LP3G_5-it_-33" value="&lt;b&gt;MATRIZ&amp;nbsp;&lt;font style=&quot;font-size: 13px;&quot;&gt;A&lt;/font&gt;&amp;nbsp;DIAGONAL,&amp;nbsp;&lt;/b&gt;&lt;div&gt;&lt;b&gt;O FÁCILMENTE DIAGONALIZABLE,&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;SIN POLOS C*&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="100" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Ax-EyaZyT6LP3G_5-it_-34" value="&lt;b&gt;MATRIZ&amp;nbsp;&lt;font style=&quot;font-size: 13px;&quot;&gt;A&lt;/font&gt;&amp;nbsp;DIFICIL DE DIAGONALIZAR, O CON POLOS C*&lt;br&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="230" y="100" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Ax-EyaZyT6LP3G_5-it_-35" value="&lt;b&gt;FUNCIÓN DE TRANSFERENCIA&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="600" y="10" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Ax-EyaZyT6LP3G_5-it_-36" value="&lt;b&gt;TEST&amp;nbsp; FORMA CONTROLADORA&lt;/b&gt;" style="whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="470" y="200" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Ax-EyaZyT6LP3G_5-it_-37" value="&lt;b&gt;TEST DE GILBERT&lt;/b&gt;" style="whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="650" y="200" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Ax-EyaZyT6LP3G_5-it_-38" value="SEPARÁ EN RESIDUOS&lt;div&gt;&amp;nbsp;Y LLEVÁ A FORMA DIAGONAL.&lt;div&gt;DETERMINÁ C Y O POR OBSERVACIÓN.&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="250" width="150" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Ax-EyaZyT6LP3G_5-it_-39" value="&lt;div&gt;&lt;b&gt;SIN POLOS C*&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="665" y="130" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ax-EyaZyT6LP3G_5-it_-40" value="&lt;div&gt;&lt;b&gt;CON POLOS C*&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="480" y="130" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ax-EyaZyT6LP3G_5-it_-42" value="EXPANDÍ LA TRANSFERENCIA EN POLINOMIOS. CON LOS COEFICIENTES a Y b, LLEVÁ A FORMA CONTROLADORA Y DETERMINÁ POR OBSERVACIÓN." style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="250" width="150" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Ax-EyaZyT6LP3G_5-it_-43" value="&lt;b&gt;TEST&amp;nbsp; FORMA OBSERVADORA&lt;/b&gt;" style="whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="470" y="370" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Ax-EyaZyT6LP3G_5-it_-44" value="EXPANDÍ LA TRANSFERENCIA EN POLINOMIOS. CON LOS COEFICIENTES a Y b, LLEVÁ A FORMA OBSERVADORA Y DETERMINÁ POR OBSERVACIÓN." style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="420" width="150" height="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
